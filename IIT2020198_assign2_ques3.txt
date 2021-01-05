@@ -1,0 +1,9 @@
+Ans-1. This program displays the output of two loops- one for char and one for short.Output- 0123456789
+                                   0123456789
+                                   
+Ans-2. Yes the two lines of output have a difference. The first line being stored as a char value and second one stored as a short value.
+
+Ans-3. The second printf was required to print the output as a short value which is same as a int value with less storage space.
+
+Ans-4. When the while loop performs additional iteration the printf for short type will print 10 as it is stored as an int value. But the char data type cannot store 10 collectively and stores it as 1 and 0. So the condition c<=10 is always satisfied and we get an output like that of an infinite loop.
+                                        
